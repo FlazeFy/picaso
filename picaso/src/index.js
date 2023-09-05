@@ -6,6 +6,7 @@ import ReactDOM from 'react-dom/client';
 
 import './App.css';
 import './modules/styles/global.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import './modules/styles/navbar.css';
 import './modules/styles/container.css';
@@ -13,6 +14,7 @@ import './modules/styles/form.css';
 import './modules/styles/button.css';
 import './modules/styles/product.css';
 import './modules/styles/typography.css';
+import './modules/styles/landing.css';
 
 import Home_Index from './pages/home/index';
 import Table_Index from './pages/table/index';

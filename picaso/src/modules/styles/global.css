@@ -48,4 +48,13 @@ body {
 
 a, p, label, h1, h2, h3, h4, h5, h6 {
     color: var(--darkColor);
+    text-decoration: none !important;
+}
+
+.carousel-item {
+    height: 600px;
+}
+.carousel-item img {
+    height: 100%;
+    width: 100%;
 }

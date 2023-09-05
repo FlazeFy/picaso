@@ -1,7 +1,8 @@
 import GetCatalogBox from "../../../components/containers/catalog";
 import { useState, useEffect } from "react";
+import Axios from "axios";
 
-export default function GetCatalog() {
+export default function GetTopCatalog() {
     //Initial variable
     const [error, setError] = useState(null);
     const [isLoaded, setIsLoaded] = useState(false);
@@ -34,12 +35,12 @@ export default function GetCatalog() {
                         <h1 className="text-primary">Product Catalog</h1>
                     </span>
                     <span>  
-                        <a></a>
+                        <a href="/products" className="btn-primary-outlined me-2 px-3 py-2">See More</a>
                     </span>
                 </div>
                 <div className="grid grid-cols-4 gap-4">
                     {
-                        items.map((val, i, index) => {
+                        items.slice(0, 4).map((val, i, index) => {
                             return (
                                 <GetCatalogBox item={val} key={i}/>
                             )

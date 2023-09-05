@@ -18,7 +18,7 @@ export default function GetNavbar({active}) {
             <a href=""><span></span></a>
             {/* <a href="" className="btn-primary-outlined me-2"><i className="fa-solid fa-bars"></i></a> */}
         </div>
-        <div>
+        <div className="pt-2">
             <a href="/login" className="btn-primary-outlined me-2"><span>Login</span><i className="fa-solid fa-arrow-right-to-bracket"></i></a>
             <a href="/register" className="btn-primary me-3"><span>Register</span></a>
         </div>

@@ -1,0 +1,10 @@
+.landing-box {
+    max-width: 720px;
+    text-align: left;
+    padding: var(--spaceLG);
+    margin: var(--spaceLG);
+    display: block;
+    margin-inline: auto;
+    background: var(--lightColor);
+    border-radius: var(--roundedLG);
+}
