@@ -1,0 +1,42 @@
+.main-box {
+    background: var(--lightColor);
+    max-width: 1280px;
+    min-height: 80vh;
+    display: block;
+    margin-inline: auto;
+    margin-top: var(--spaceJumbo);
+    border-radius: var(--roundedXLG);
+    padding: var(--spaceJumbo);
+}
+.main-box .menu-navigator {
+    font-size: var(--textLG);
+    font-weight: 500 !important;
+    color: var(--darkColor);
+    margin-bottom: var(--spaceLG);
+}
+.main-box .menu-header-button button{
+    color: var(--whiteColor);
+    background: var(--primaryColor);
+    padding: var(--spaceMD);
+    border-radius: var(--roundedCircle);
+    height: 50px;
+    width: 50px;
+    margin-right: var(--spaceXSM);
+}
+.main-box .menu-navigator a:last-child {
+    color: var(--primaryColor);
+}
+
+.main-box h1 {
+    color: var(--primaryColor);
+}
+.main-box label {
+    color: var(--darkColor);
+}
+
+.glass-box {
+    max-width: 1280px;
+    display: block;
+    margin: var(--spaceJumbo) auto;
+    border-radius: var(--roundedXLG);
+}

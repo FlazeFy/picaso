@@ -1,0 +1,27 @@
+/* Normal Button */
+.btn-primary {
+    border: 1.5px solid var(--primaryColor);
+    background: var(--primaryColor) !important;
+    color: var(--whiteColor);
+    border-radius: var(--roundedSM);
+}
+.btn-danger {
+    border: 1.5px solid var(--);
+    background: var(--warningBG) !important;
+    color: var(--whiteColor);
+    border-radius: var(--roundedSM);
+}
+.btn-submit {
+    border: 1.5px solid var(--successBG);
+    background: var(--successBG) !important;
+    color: var(--whiteColor);
+    border-radius: var(--roundedSM);
+}
+
+/* Outlined button */
+.btn-primary-outlined {
+    border: 1.5px solid var(--primaryColor);
+    color: var(--primaryColor);
+    background: transparent !important;
+    border-radius: var(--roundedSM);
+}

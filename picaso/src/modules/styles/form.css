@@ -1,0 +1,22 @@
+.form-input {
+    border-radius: var(--roundedMD);
+    padding: var(--spaceXSM) var(--spaceSM);
+    background: var(--hoverBG);
+}
+.form-file {
+    cursor: pointer;
+    border-radius: var(--roundedMD);
+    border: 2px dashed var(--primaryLightBG);
+    height: 25vh;
+    max-height: 240px;
+}
+.form-file:hover {
+    cursor: pointer;
+    border-radius: var(--roundedMD);
+    border: 2px dashed var(--primaryLightBG);
+    height: 25vh;
+    max-height: 240px;
+}
+.form-group {
+    text-align: left;
+}

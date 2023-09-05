@@ -1,0 +1,51 @@
+:root {   
+    /* Typography */
+    --textJumbo : 34px;
+    --textXLG : 24px;
+    --textLG : 20px;
+    --textXMD : 16px;
+    --textMD : 14px;
+    --textSM : 11px;
+    --textXSM : 9px;
+
+    /* Rounded */
+    --roundedCircle : 100%;
+    --roundedXLG : 24px;
+    --roundedLG : 18px;
+    --roundedMD : 14px;
+    --roundedSM : 10px;
+    --roundedMini : 8px;
+
+    /* Spacing */
+    --spaceJumbo : 35px;
+    --spaceXLG : 24px;
+    --spaceLG : 20px;
+    --spaceXMD : 16px;
+    --spaceMD : 12px;
+    --spaceSM : 10px;
+    --spaceXSM : 8px;
+    --spaceXXSM : 6px;
+    --spaceMini : 4px;
+
+    /* Color Pallete */
+    --primaryLightBG : #00BEFD;
+    --successBG : #00B14F;
+    --warningBG : #FF6263;
+    --hoverBG : #F0F0F0;
+
+    --primaryColor : #009FF9;
+    --darkColor : #3D4856;
+    --lightColor : #FFFFFF;
+    --whiteColor : #F1FAFF;
+    --greyColor : #808080;
+    --shadowColor : #A1ACBD;
+}
+
+body {
+    background: var(--whiteColor) !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+a, p, label, h1, h2, h3, h4, h5, h6 {
+    color: var(--darkColor);
+}

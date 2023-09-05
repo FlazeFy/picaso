@@ -1,0 +1,21 @@
+h1 {
+    font-size: var(--textJumbo) !important;
+}
+h2 {
+    font-size: calc( var(--textXLG) + var(--textSM)) !important;
+}
+h3 {
+    font-size: var(--textLG) !important;
+}
+.text-primary {
+    color: var(--primaryColor);
+}
+.text-danger {
+    color: var(--warningBG);
+}
+.text-success {
+    color: var(--successBG);
+}
+section h1 {
+    text-align: left;
+}
